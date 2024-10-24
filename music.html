@@ -15,6 +15,27 @@
            <a href= "retroGames.html">games</a>
         </div>
         <strong><a href="https://open.spotify.com/user/c0pyca7themighty?si=076ea40c0cb4400e">my spotify</a></strong>
+        <div id = "app"></div>
+        <script src="https://unpkg/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+        <script>
+            const window.Webamp;
+            const app = document.getElementById("app")
+            const webamp = new Webamp({
+                initialTracks:[{
+                    metaData:{
+                        artist:"",
+                        title:"",
+                    },
+                    url:""
+                }],
+                initialSkin{
+                    url:"ascii.wsz"
+                }
+            });
+            webamp.renderWhenReady(app);
+        </script>
+        
 
+        <div id="winamp-container"></div>
     </body>
 </html>
