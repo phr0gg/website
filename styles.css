@@ -4,17 +4,19 @@ html{
 }
 body{
     height: 100vh;
+    background-color: rgba(6,10,5,.7);
     font-family: roboto-mono, monospace;
     margin-left: 200px;
     margin-right: 200px;
     text-align: center;
     background-repeat: repeat;
     color: #c1eebe;
-    background-color: rgba(6,10,5,.7);
 }
 
 h3{
-    color:#dc5166; 
+    background-color: rgba(6,10,5,.7);
+    color:#dc5166;
+    margin-top:50px;
     margin-right: 100px;
     margin-left: 100px;
     border-style:solid;
@@ -45,3 +47,4 @@ a{
 iframe{
     opacity:0.9;
 }
+
