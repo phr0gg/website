@@ -53,3 +53,13 @@ iframe{
     padding-left: 200px;
     padding-right: 200px;
 }
+.gallery{
+    background-color: rgba(6,10,5,.7);
+    overflow:auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.gallery img{
+    padding: 10px;
+}
